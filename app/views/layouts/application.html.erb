@@ -31,6 +31,14 @@
 
     <!-- content -->
     <div class="container"  role="main">
+
+<!-- navigation -->
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+
+      <%=link_to "Sign Up", new_user_path %>
+      <%=link_to "Sign In", signin_path %>
+
       <%= yield %>
     </div>
 
